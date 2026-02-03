@@ -1,0 +1,32 @@
+Rules Permainan "Ular Beta"
+
+1. Tujuan Permainan:
+   Kendalikan ular untuk makan makanan merah sebanyak mungkin dan hindari menabrak dinding atau tubuh sendiri.
+
+2. Kontrol Ular:
+   W → gerak ke atas
+   S → gerak ke bawah
+   A → gerak ke kiri
+   D → gerak ke kanan
+
+   Ular tidak bisa langsung membalik arah (misal dari kanan langsung ke kiri).
+
+3. Makanan:
+   Makanan muncul secara acak di area permainan.
+   Setiap kali ular memakan makanan, ular bertambah panjang 1 kotak, dan skor bertambah 1.
+
+4. Nyawa:
+   Pemain punya 3 nyawa (❤️) di awal permainan.
+   Menabrak dinding atau tubuh sendiri akan mengurangi 1 nyawa.
+   Jika nyawa habis, game over.
+
+5. Game Over:
+   Muncul teks “Game Over” dan skor akhir.
+   Untuk bermain lagi, tekan tombol Restart (Spasi).
+
+6. Skor:
+   Skor ditampilkan di kiri atas layar.
+   Makan makanan = skor +1
+   Restart Game:
+   Tekan tombol Spasi atau tombol “Restart” untuk memulai ulang permainan.
+   Nyawa, skor, dan posisi ular akan direset ke kondisi awal.
